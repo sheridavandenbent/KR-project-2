@@ -1,5 +1,5 @@
-http://www.co-ode.org/ontologies/pizza/pizza.owl#ChickenTopping
-http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaBase
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Country
+
 
 
 
