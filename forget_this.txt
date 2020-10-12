@@ -1,1 +1,2 @@
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Country
 http://www.co-ode.org/ontologies/pizza/pizza.owl#FishTopping
