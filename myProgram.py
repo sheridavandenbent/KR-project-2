@@ -23,7 +23,7 @@ def CreateForgetOrder(forget_input):
 
 def main():
     global forgetOntology
-    NUM_REPEATS = 2
+    NUM_REPEATS = 10
     forget_file = "./forget_this_linear_forward.txt"
     forget_order = CreateForgetOrder(forget_file)
 
@@ -31,6 +31,7 @@ def main():
     for i in range(NUM_REPEATS):
         print('\t\t\tREPEAT', i+1)
         random.shuffle(forget_order)
+        forgetOntology = "datasets/linear.owl"
         start = datetime.datetime.now()
 
         for concept in forget_order:
