@@ -1,1 +1,1 @@
-http://www.co-ode.org/ontologies/pizza/pizza.owl#FishTopping
+http://www.semanticweb.org/sheridavandenbent/ontologies/KR-test-ontology#O

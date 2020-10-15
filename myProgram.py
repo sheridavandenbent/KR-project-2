@@ -1,8 +1,13 @@
 import os
+import random
+import datetime
+import statistics
 
-inputOntology = "datasets/pizza.owl"
+random.seed(1)
+
+inputOntology = "datasets/linear.owl"
 inputSubclassStatements = "datasets/subClasses.nt"
-forgetOntology = "datasets/pizza.owl"
+forgetOntology = "datasets/linear.owl"
 method = "3"
 signature = "datasets/signature.txt"
 
@@ -15,21 +20,37 @@ def CreateForgetOrder(forget_input):
         forget_order.append(line)
     return forget_order
 
+
 def main():
     global forgetOntology
-    forget_file = "./forget_this.txt"
+    NUM_REPEATS = 2
+    forget_file = "./forget_this_linear_forward.txt"
     forget_order = CreateForgetOrder(forget_file)
 
-    
-    for concept in forget_order:
-        with open(signature, 'w') as f: # overwrites file every time
-            f.write(concept)
+    times = []
+    for i in range(NUM_REPEATS):
+        print('\t\t\tREPEAT', i+1)
+        random.shuffle(forget_order)
+        start = datetime.datetime.now()
 
-        os.system(
-            'java -cp lethe-standalone.jar uk.ac.man.cs.lethe.internal.application.ForgettingConsoleApplication --owlFile '
-            + forgetOntology + ' --method ' + method + ' --signature ' + signature)
+        for concept in forget_order:
+            with open(signature, 'w') as f:  # overwrites file every time
+                f.write(concept)
 
-        forgetOntology = './result.owl'
+            os.system(
+                'java -cp lethe-standalone.jar uk.ac.man.cs.lethe.internal.application.ForgettingConsoleApplication --owlFile '
+                + forgetOntology + ' --method ' + method + ' --signature ' + signature)
+
+            forgetOntology = './result.owl'
+        end = datetime.datetime.now()
+        diff = end - start
+        times.append(diff.total_seconds() * 1000)
+
+        print('\n\t\t\tDONE WITH REPEAT', i+1, '\n\t\t\t', diff.total_seconds() * 1000,'\n')
+
+    print('DONE\nAVERAGE:\t', statistics.mean(times), '\nSD:\t\t\t', statistics.stdev(times), '\nMIN:\t\t', min(times),
+          '\nMAX:\t\t', max(times))
+
 
 # This is an example puython programme which shows how to use the different stand-alone versions of OWL reasoners and forgetting programme
 

@@ -1,2 +1,14 @@
-http://www.co-ode.org/ontologies/pizza/pizza.owl#Country
-http://www.co-ode.org/ontologies/pizza/pizza.owl#FishTopping
+http://www.semanticweb.org/sheridavandenbent/ontologies/KR-test-ontology#O
+http://www.semanticweb.org/sheridavandenbent/ontologies/KR-test-ontology#N
+http://www.semanticweb.org/sheridavandenbent/ontologies/KR-test-ontology#M
+http://www.semanticweb.org/sheridavandenbent/ontologies/KR-test-ontology#L
+http://www.semanticweb.org/sheridavandenbent/ontologies/KR-test-ontology#K
+http://www.semanticweb.org/sheridavandenbent/ontologies/KR-test-ontology#J
+http://www.semanticweb.org/sheridavandenbent/ontologies/KR-test-ontology#I
+http://www.semanticweb.org/sheridavandenbent/ontologies/KR-test-ontology#H
+http://www.semanticweb.org/sheridavandenbent/ontologies/KR-test-ontology#G
+http://www.semanticweb.org/sheridavandenbent/ontologies/KR-test-ontology#F
+http://www.semanticweb.org/sheridavandenbent/ontologies/KR-test-ontology#E
+http://www.semanticweb.org/sheridavandenbent/ontologies/KR-test-ontology#D
+http://www.semanticweb.org/sheridavandenbent/ontologies/KR-test-ontology#C
+http://www.semanticweb.org/sheridavandenbent/ontologies/KR-test-ontology#B
