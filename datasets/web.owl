@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#A1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#B1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#B2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#D1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#D2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#D3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#D4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#F1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#F2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#G1"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#B1"/>
+        <Class IRI="#A1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B2"/>
+        <Class IRI="#A1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C1"/>
+        <Class IRI="#B1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C1"/>
+        <Class IRI="#B2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C2"/>
+        <Class IRI="#B1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C2"/>
+        <Class IRI="#B2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C3"/>
+        <Class IRI="#B1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C3"/>
+        <Class IRI="#B2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D1"/>
+        <Class IRI="#C1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D1"/>
+        <Class IRI="#C2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D1"/>
+        <Class IRI="#C3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D2"/>
+        <Class IRI="#C1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D2"/>
+        <Class IRI="#C2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D2"/>
+        <Class IRI="#C3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D3"/>
+        <Class IRI="#C1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D3"/>
+        <Class IRI="#C2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D3"/>
+        <Class IRI="#C3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D4"/>
+        <Class IRI="#C1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D4"/>
+        <Class IRI="#C2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D4"/>
+        <Class IRI="#C3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E1"/>
+        <Class IRI="#D1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E1"/>
+        <Class IRI="#D2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E1"/>
+        <Class IRI="#D3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E1"/>
+        <Class IRI="#D4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E2"/>
+        <Class IRI="#D1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E2"/>
+        <Class IRI="#D2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E2"/>
+        <Class IRI="#D3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E2"/>
+        <Class IRI="#D4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E3"/>
+        <Class IRI="#D1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E3"/>
+        <Class IRI="#D2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E3"/>
+        <Class IRI="#D3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E3"/>
+        <Class IRI="#D4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#F1"/>
+        <Class IRI="#E1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#F1"/>
+        <Class IRI="#E2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#F1"/>
+        <Class IRI="#E3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#F2"/>
+        <Class IRI="#E1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#F2"/>
+        <Class IRI="#E2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#F2"/>
+        <Class IRI="#E3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#G1"/>
+        <Class IRI="#F1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#G1"/>
+        <Class IRI="#F2"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
