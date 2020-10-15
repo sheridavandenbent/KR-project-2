@@ -1,1 +1,1 @@
-http://www.semanticweb.org/sheridavandenbent/ontologies/KR-test-ontology#O
+http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#B1

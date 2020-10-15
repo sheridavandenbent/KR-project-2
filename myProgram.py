@@ -5,9 +5,9 @@ import statistics
 
 random.seed(1)
 
-inputOntology = "datasets/linear.owl"
+inputOntology = "datasets/web.owl"
 inputSubclassStatements = "datasets/subClasses.nt"
-forgetOntology = "datasets/linear.owl"
+forgetOntology = "datasets/web.owl"
 method = "3"
 signature = "datasets/signature.txt"
 
@@ -24,14 +24,14 @@ def CreateForgetOrder(forget_input):
 def main():
     global forgetOntology
     NUM_REPEATS = 10
-    forget_file = "./forget_this_linear_forward.txt"
+    forget_file = "./forget_this_web_middle.txt"
     forget_order = CreateForgetOrder(forget_file)
 
     times = []
     for i in range(NUM_REPEATS):
         print('\t\t\tREPEAT', i+1)
-        random.shuffle(forget_order)
-        forgetOntology = "datasets/linear.owl"
+        # random.shuffle(forget_order)
+        forgetOntology = "datasets/web.owl"
         start = datetime.datetime.now()
 
         for concept in forget_order:
