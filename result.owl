@@ -25,108 +25,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#C3 -->
-
-    <Class rdf:about="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#C3">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#A1"/>
-    </Class>
-    
-
-
-    <!-- http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#D1 -->
-
-    <Class rdf:about="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#D1">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#A1"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#C3"/>
-    </Class>
-    
-
-
-    <!-- http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#D2 -->
-
-    <Class rdf:about="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#D2">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#A1"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#C3"/>
-    </Class>
-    
-
-
-    <!-- http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#D3 -->
-
-    <Class rdf:about="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#D3">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#A1"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#C3"/>
-    </Class>
-    
-
-
-    <!-- http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#D4 -->
-
-    <Class rdf:about="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#D4">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#A1"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#C3"/>
-    </Class>
-    
-
-
-    <!-- http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#E1 -->
-
-    <Class rdf:about="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#E1">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#D1"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#D2"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#D3"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#D4"/>
-    </Class>
-    
-
-
-    <!-- http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#E2 -->
-
-    <Class rdf:about="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#E2">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#D1"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#D2"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#D3"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#D4"/>
-    </Class>
-    
-
-
-    <!-- http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#E3 -->
-
-    <Class rdf:about="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#E3">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#D1"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#D2"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#D3"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#D4"/>
-    </Class>
-    
-
-
-    <!-- http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#F1 -->
-
-    <Class rdf:about="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#F1">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#E1"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#E2"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#E3"/>
-    </Class>
-    
-
-
-    <!-- http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#F2 -->
-
-    <Class rdf:about="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#F2">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#E1"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#E2"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#E3"/>
-    </Class>
-    
-
-
     <!-- http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#G1 -->
 
     <Class rdf:about="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#G1">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#F1"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#F2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#A1"/>
     </Class>
 </rdf:RDF>
 

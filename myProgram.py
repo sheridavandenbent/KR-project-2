@@ -24,7 +24,7 @@ def CreateForgetOrder(forget_input):
 def main():
     global forgetOntology
     NUM_REPEATS = 10
-    forget_file = "./forget_this_web_forward.txt"
+    forget_file = "./forget_this_web_most_to_least.txt"
     forget_order = CreateForgetOrder(forget_file)
 
     times = []

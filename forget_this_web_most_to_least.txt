@@ -5,10 +5,10 @@ http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#D4
 http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#E1
 http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#E2
 http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#E3
-http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#F1
-http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#F2
 http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#C1
 http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#C2
 http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#C3
+http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#F1
+http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#F2
 http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#B1
 http://www.semanticweb.org/sheridavandenbent/ontologies/kr-web#B2
